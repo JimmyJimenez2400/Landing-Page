@@ -8,11 +8,11 @@ I will come back one day to update this in the future!
 
 Credit:
 
-Section 1:
-&mdash;JB from Pininterest
+Section 1:  
+&mdash;JB from Pininterest  
 
-Section 2:
-&mdash;Playstation from Youtube
-&mdash;Playstation from Youtube
-&mdash;Treyarch from Youtube
-&mdash;Nintendo from Youtube
+Section 2:  
+&mdash;Playstation from Youtube  
+&mdash;Playstation from Youtube  
+&mdash;Treyarch from Youtube  
+&mdash;Nintendo from Youtube  
