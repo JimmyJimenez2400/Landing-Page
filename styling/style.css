@@ -1,0 +1,220 @@
+/* General Settings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#navbar, .footer, #section1 {
+    background-color: #1F2937;
+}
+
+/* Navbar */
+
+#navbar {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+}
+
+#navbar .logoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+
+}
+
+#navbar .logo a{
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #F9FAF8;
+    text-decoration: none;
+    
+}
+
+#navbar .navbar-container {
+    margin-left: auto;
+}
+
+#navbar .navbar-container ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+#navbar .navbar-container ul li {
+    list-style: none;
+}
+
+#navbar .navbar-container ul li a {
+    color: #F9FAF8;
+    text-decoration: none;
+    padding: 20px;
+}
+#navbar .navbar-container ul li a:hover {
+    background-color: rgb(125, 161, 149);
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+/* Section1 */
+
+#section1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding-left: 100px;
+    padding-right: 100px;
+    
+}
+
+#section1 .leftSide {
+    display: flex;
+    flex-direction: column;
+}
+
+#section1 .leftSide .section1-heading {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    width: 50%;
+}
+
+#section1 .leftSide .section1-subheading {
+    
+    font-size: 18px;
+    color: #E5E7EB;
+    width: 80%;
+}
+
+#section1 .leftSide .button {
+    margin-top: 10px;
+}
+
+#section1 .leftSide .button .section1-signup {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 900;
+}
+
+#section1 .rightSide {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#section1 .rightSide img {
+    object-fit: cover;
+    width: 500px;
+    height: 350px;
+    margin-bottom: 20px;
+    border-radius: 90px;
+    object-position: 0% 70%;
+}
+
+/* Section2 */
+#section2 {
+    text-align: center;
+    padding: 5em;
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+}
+
+#section2 .section2-heading .section2-title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+    padding-bottom: 1em;
+    
+}
+
+#section2 .section2-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 2.5em;
+    flex-wrap: wrap;
+}
+
+#section2 .section2-container .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 0;
+}
+
+#section2 .section2-container .info .links{
+    padding-bottom: 2em;
+}
+
+#section2 .section2-container .info .gameVideo {
+    width: 12em;
+    height: 14em;
+    object-fit: cover;
+    border: 0.3em solid rgb(255, 255, 255);
+    border-radius: 1.5em;
+    box-shadow: 0 10px 30px black;
+    transition: 0.3s;
+    margin: -0.5em -1em -1em -1em;
+}
+
+#section2 .section2-container .info .gameVideo:hover {
+    transform: scale(1.05em);
+    box-shadow: 0 0 30px rgb(1, 179, 154);
+}
+
+/* Section3 */
+
+#section3 {
+    padding: 1em;
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+}
+
+#section3 .section3-blockquote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+#section3 .section3-blockquote .section3-quote {
+    color: #1F2937;
+    font-size: 36px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#section3 .section3-blockquote .section3-quote-credit {
+    font-size: 36px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+}
+
+/* Section 4 */
+
+#section4 {
+    padding: 1em;
+}
