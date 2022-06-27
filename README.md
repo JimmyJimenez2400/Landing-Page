@@ -1,6 +1,6 @@
 # landing-page
 
-Landing page base on The Odin project with my own twist!
+Landing page based on The Odin project with my own twist!
 I was so confused on how to actually do this until I went back and reviewed all the lessons along with youtube tutorials to full grasp all I learned.
 
 Going to make a similar page but for my resume!
