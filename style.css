@@ -34,6 +34,7 @@ a {
   display: flex;
   background-color: var(--dark-background-color);
   color: white;
+  flex-wrap: wrap;
 }
 
 #header {
@@ -46,19 +47,39 @@ a {
   gap: 16px;
 }
 
-.container>* {
-  width: 1200px;
-}
 
 main {
   flex: 1;
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
+}
+
+.container.head,
+.container.main {
+  width: 1200px;
+
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .hero {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.hero .left {
+  background-color: yellow;
+  flex: 1;
+}
+
+.hero .right {
+  background-color: red;
+  flex: 1;
 }
