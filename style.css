@@ -75,19 +75,28 @@ main {
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
+  background-color: var(--dark-background-color);
 }
 
 .hero {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: stretch;
   flex-wrap: wrap;
+  padding: 25px 0px;
 }
 
 .hero .left {
-  background-color: yellow;
   flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
+.hero .left h2 {
+  font-size: 48px;
+  color: #F9FAF8;
+  font-weight: 900;
 }
 
 .hero .right {
