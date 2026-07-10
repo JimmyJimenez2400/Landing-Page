@@ -28,6 +28,11 @@ a {
   color: white;
 }
 
+img {
+  width: 100%;
+  height: auto;
+}
+
 #header,
 #footer {
   padding: 10px 16px;
@@ -38,7 +43,10 @@ a {
 }
 
 .container.head,
-.container.main {
+.container.hero,
+.container.random,
+.container.quote {
+  display: flex;
   max-width: 1200px;
 }
 
@@ -78,19 +86,31 @@ main {
   background-color: var(--dark-background-color);
 }
 
+.hero,
+.randomInfo,
+.quote,
+.callToAction {
+  padding: 95px 0px;
+}
+
+.randomInfo,
+.callToAction {
+  background-color: white;
+  width: 100%;
+}
+
 .hero {
   display: flex;
   justify-content: space-between;
-  align-items: stretch;
+  align-items: flex-start;
   flex-wrap: wrap;
-  padding: 25px 0px;
 }
 
 .hero .left {
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  gap: 24px;
 }
 
 .hero .left h2 {
@@ -98,6 +118,24 @@ main {
   color: #F9FAF8;
   font-weight: 900;
 }
+
+.hero .left p {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.hero .left button {
+  padding: 10px 35px;
+  flex-shrink: 1;
+  flex-grow: 0;
+  align-self: flex-start;
+  background-color: var(--call-to-action);
+  color: white;
+  font-weight: 900;
+  border-radius: 5px;
+  border: none;
+}
+
 
 .hero .right {
   background-color: red;
@@ -109,4 +147,60 @@ main {
   width: 100%;
   height: auto;
   display: block;
+}
+
+.randomInfo {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.randomInfo .container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  gap: 24px;
+}
+
+.randomInfo .container .title {
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 900;
+}
+
+.containerCards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.card img {
+  border-radius: 25px;
+  border: 7px solid blue;
+}
+
+
+.quote {
+  display: flex;
+  justify-content: center;
+  background-color: #E5E7EB;
+}
+
+.quote h4 {
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 300;
+}
+
+.container.quote {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.container.quote p {
+  align-self: flex-end;
 }
