@@ -35,7 +35,7 @@ img {
 
 #header,
 #footer {
-  padding: 10px 16px;
+  padding: 30px 16px;
   display: flex;
   background-color: var(--dark-background-color);
   color: white;
@@ -45,7 +45,8 @@ img {
 .container.head,
 .container.hero,
 .container.random,
-.container.quote {
+.container.quote,
+.container.call {
   display: flex;
   max-width: 1200px;
 }
@@ -203,4 +204,28 @@ main {
 
 .container.quote p {
   align-self: flex-end;
+}
+
+.callToAction {
+  display: flex;
+  justify-content: center;
+
+}
+
+.container.call {
+  width: 100%;
+  background-color: var(--call-to-action);
+  padding: 50px 0px;
+  border-radius: 25px;
+
+  display: flex;
+  justify-content: space-around;
+}
+
+#footer {
+  justify-content: center;
+}
+
+#footer.container {
+  text-align: center;
 }
