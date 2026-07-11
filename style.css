@@ -181,6 +181,7 @@ main {
 .card img {
   border-radius: 25px;
   border: 7px solid blue;
+  margin-bottom: 25px;
 }
 
 
@@ -204,6 +205,8 @@ main {
 
 .container.quote p {
   align-self: flex-end;
+  font-weight: 900;
+  font-size: 36px;
 }
 
 .callToAction {
@@ -220,6 +223,32 @@ main {
 
   display: flex;
   justify-content: space-around;
+}
+
+.container.call .left {
+  color: #F9FAF8;
+}
+
+.container.call .left h4 {
+  font-size: 26px;
+  color: white;
+  font-weight: 900;
+}
+
+.container.call .right {
+  display: flex;
+  align-items: stretch;
+}
+
+.container.call .right button {
+  display: flex;
+  align-items: center;
+  border: 2px solid white;
+  color: #F9FAF8;
+  background-color: var(--call-to-action);
+  padding: 10px 35px;
+  border-radius: 5px;
+  font-weight: 800;
 }
 
 #footer {
